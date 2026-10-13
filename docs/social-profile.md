@@ -1,9 +1,9 @@
 # QNH auf Social Media – Profile zum Einfügen
 
-**Rolle von QNH:** Die Apps haben eigene Kanäle (Downwind: Instagram @flydownwind). QNH ist die Firma dahinter. Darum:
+**Rolle von QNH:** Die Apps haben eigene Kanäle (Downwind: Instagram @fly_downwind). QNH ist die Firma dahinter. Darum:
 
 - **LinkedIn-Unternehmensseite = Hauptkanal von QNH.** Dort sind Flugplätze, Flugschulen, Vereine, Partner, Banken und später Mitarbeitende. Wenige, gute Beiträge (z. B. Gründung, App-Start, Meilensteine).
-- **Instagram @setqnh = nur reservieren.** Name sichern, sauberes Profil, das auf die Apps verweist. Inhalte laufen über @flydownwind.
+- **Instagram @setqnh = nur reservieren.** Name sichern, sauberes Profil, das auf die Apps verweist. Inhalte laufen über @fly_downwind.
 - **Überall der gleiche Name: `setqnh`.** Kein Anbieter prüft die Domain, also jetzt sichern, bevor ihn jemand anderes nimmt.
 
 Bilder liegen in `Website Flying\QNH Logo\social\`: `profilbild-800.png` (Profilbild/Logo) und `linkedin-cover-2256x382.png` (Titelbild).
@@ -99,7 +99,7 @@ Mit Bild: `linkedin-cover` oder ein echtes Foto von dir am Flugzeug.
 **Bio (max. 150 Zeichen):**
 ```
 Apps für Pilotinnen und Piloten, gebaut von einem Piloten in der Schweiz.
-Downwind: dein Flugbuch zum Teilen → @flydownwind
+Downwind: dein Flugbuch zum Teilen → @fly_downwind
 SecondSeat: bald
 ```
 
