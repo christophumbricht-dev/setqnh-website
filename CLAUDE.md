@@ -18,4 +18,7 @@ Christoph asked to hide the site until the GmbH is founded. `main` serves a plac
 - Company is "in Gründung": after the commercial register entry, update `COMPANY`, the UID and the registered seat in `build.mjs` (imprint + privacy).
 - Address in the imprint is Christoph's private address (same as flydownwind.ch) until the GmbH has its seat.
 - Privacy text is a draft (version 0.9) and assumes the mailbox `hello@setqnh.ch` at Infomaniak.
+- Briefing login: the placeholder (index.html / 404.html on main) has a small "Briefing · Anmelden" box linking to
+  https://setqnh-briefing.pages.dev/ (Cloudflare Access, e-mail code). The full site in `volle-website` does not have it
+  yet — add it to `build.mjs` before going live. Tool source: `C:\Projects\setqnh-briefing`.
 - SecondSeat: link and privacy policy once it is released. Downwind: App Store link from January 2027.
