@@ -9,6 +9,10 @@ Company website (owner: Christoph Umbricht). Talk to Christoph in **German** (Sw
 - Design rules: `C:\Users\cu89\Desktop\Christoph\Fliegen\Website Flying\V2\CLAUDE.md` (no AI look, no stat rows, no gradients as decoration). Palette: paper `#F6F4EF`, ink `#102A43`, accent `#0B7285`. Signature element: the altimeter setting scale in the hero (`pressureScale()`), set to 1013 hPa with a one-time slide; respects `prefers-reduced-motion`.
 - Never invent facts (numbers, testimonials, partners). Christoph's photos only with his OK.
 
+## Currently: placeholder only (since 14.10.2026)
+
+Christoph asked to hide the site until the GmbH is founded. `main` serves a placeholder (index.html = 404.html, noindex, robots Disallow, no company name/address). The full site lives in branch `volle-website` (do NOT run `node build.mjs` on main – it would regenerate the full site). To go live after the commercial register entry: `git checkout volle-website`, update COMPANY/UID/seat in build.mjs, `node build.mjs`, merge into main, push.
+
 ## Open (update when it happens)
 
 - Company is "in Gründung": after the commercial register entry, update `COMPANY`, the UID and the registered seat in `build.mjs` (imprint + privacy).

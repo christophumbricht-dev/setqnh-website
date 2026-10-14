@@ -3,17 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Altimeter not set – QNH</title>
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, nofollow">
+<title>QNH</title>
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+@font-face { font-family: "Space Grotesk"; src: url(/assets/fonts/space-grotesk-latin-700-normal.woff2) format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "IBM Plex Sans"; src: url(/assets/fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2"); font-weight: 400; font-display: swap; }
+:root { --paper: #F6F4EF; --ink: #102A43; --muted: #52667a; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --paper: #0B1A28; --ink: #E6EDF3; --muted: #8AA1B8; } }
+html, body { height: 100%; margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 18px/1.5 "IBM Plex Sans", system-ui, sans-serif; display: grid; place-items: center; padding: 24px; box-sizing: border-box; }
+main { text-align: center; }
+img { width: 72px; height: auto; }
+h1 { font: 700 44px/1 "Space Grotesk", system-ui, sans-serif; letter-spacing: 0.04em; margin: 18px 0 14px; }
+p { margin: 0; color: var(--muted); }
+</style>
 </head>
 <body>
-<main id="main" class="lost">
-  <p class="eyebrow">404</p>
-  <h1>Höhenmesser nicht eingestellt.</h1>
-  <p class="lead">Diese Seite gibt es nicht. <a href="/">Zurück zur Startseite</a></p>
-  <p class="lead" lang="en">Altimeter not set: this page does not exist. <a href="/en/">Back to the home page</a></p>
+<main>
+  <img src="/assets/qnh-symbol.svg" alt="">
+  <h1>QNH</h1>
+  <p>Hier entsteht etwas. Bald mehr.</p>
 </main>
 </body>
 </html>

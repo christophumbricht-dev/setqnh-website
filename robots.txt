@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://setqnh.ch/sitemap.xml
+Disallow: /
